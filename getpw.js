@@ -1,5 +1,5 @@
 $(document).ready( function(){
-var ps = $('#password');
+var ps = $('#password').val();
  
     alert(ps)
     
