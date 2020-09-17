@@ -23,7 +23,7 @@
        <form method="POST">
         <label for="password">Please enter password</label>
         <input type="password" name="password" id="password">
-        <input type="submit" value="Login" onsubmit="getpw.js">
+        <input type="submit" value="Login" id="submit">
        </form>
                 
       </div>
@@ -31,6 +31,18 @@
                 
    </div>
  </div>
+  
+<script>
+  
+$(document).ready( function(){
+  $('#sumit').click(function(){
+var ps = $('#password').val();
+ 
+    alert(ps)
+  })
+})
+  </script>
+  
 </body>
 
 </html>
