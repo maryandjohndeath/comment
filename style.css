@@ -16,7 +16,7 @@ padding: 0;
   align-items: center;
   background-color: #000;
   min-height: 75px;
-  width: 100%;
+  min-width: 100%;
 }
 
 .password
