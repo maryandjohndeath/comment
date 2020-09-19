@@ -35,6 +35,13 @@ padding: 0;
   align-items: center;
 }
 
+.img-display
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 img
 {
   width: 75%;
