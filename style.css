@@ -14,7 +14,7 @@ padding: 0;
   background-color: #000;
   height: 75ppx;
   width: 100%;
-  color: #FFF;
+  color: #FFF!important;
 }
 
 .nav
