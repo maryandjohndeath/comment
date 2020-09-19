@@ -14,6 +14,7 @@ padding: 0;
   background-color: #000;
   height: 75ppx;
   width: 100%;
+  color: #FFF;
 }
 
 .nav
@@ -36,8 +37,5 @@ padding: 0;
 
 img
 {
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  width: 50%
+  width: 75%;
 }
